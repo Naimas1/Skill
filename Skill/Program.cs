@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace MyApp.Models
+{
+    public class Skill
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+}
